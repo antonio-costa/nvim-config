@@ -44,3 +44,7 @@ require("lazy").setup({
     },
   },
 })
+
+if vim.g.neovide then
+  vim.o.guifont = "Roboto_Mono:h12" -- text below applies for VimScript
+end
