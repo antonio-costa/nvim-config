@@ -1,9 +1,14 @@
 return {
-  { "tomasiser/vim-code-dark" },
+  {
+    "catppuccin/nvim",
+    opts = {
+      transparent_background = true,
+    },
+  },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "codedark",
+      colorscheme = "catppuccin",
     },
   },
 }

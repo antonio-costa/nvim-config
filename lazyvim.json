@@ -8,7 +8,8 @@
     "lazyvim.plugins.extras.lang.prisma",
     "lazyvim.plugins.extras.lang.tailwind",
     "lazyvim.plugins.extras.linting.eslint",
-    "lazyvim.plugins.extras.util.mini-hipatterns"
+    "lazyvim.plugins.extras.util.mini-hipatterns",
+    "lazyvim.plugins.extras.formatting.prettier"
   ],
   "install_version": 7,
   "news": {
@@ -16,3 +17,4 @@
   },
   "version": 8
 }
+
